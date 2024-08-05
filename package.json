@@ -1,0 +1,36 @@
+{
+  "name": "yarkendar-quill-text-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack serve --open --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-dev-server": "^5.0.4",
+    "terser-webpack-plugin": "^5.3.6",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "sass-loader": "^16.0.0",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "@babel/preset-typescript": "^7.23.3",
+    "babel-loader": "^9.1.3"
+  },
+  "dependencies": {
+    "core-js": "^3.34.0",
+    "quill": "^2.0.2",
+    "quill-resize-image": "^1.0.4"
+  }
+}
