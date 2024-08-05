@@ -30,7 +30,6 @@
   },
   "dependencies": {
     "core-js": "^3.34.0",
-    "quill": "^2.0.2",
-    "quill-resize-image": "^1.0.4"
+    "quill": "^2.0.2"
   }
 }
